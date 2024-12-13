@@ -1,0 +1,5 @@
+props - inputs to react component.
+
+data is passed from parent to children but never between sibling components
+
+to pass betn siblings we need nto use  - uplifting the prop 
