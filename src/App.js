@@ -9,6 +9,7 @@ const App = () => {
     <div>
       <h2>Hello world;</h2>
       <Profile nameProps={name} bio={bio} />
+      <Profile nameProps={"AYE"} bio={"I love creating digital content"} />
       <PropTest />
     </div>
   );
