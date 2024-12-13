@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import PropTest from "./PropTest";
 import Profile from "./Profile";
@@ -8,7 +7,7 @@ const App = () => {
   return (
     <div>
       <h2>Hello world;</h2>
-      <Profile />
+      <Profile nameProps={name} />
       <PropTest />
     </div>
   );

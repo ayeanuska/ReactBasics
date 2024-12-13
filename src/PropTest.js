@@ -1,7 +1,7 @@
 import React from "react";
 
-function PropTest() {
-  return <div>PropTest</div>;
-}
+const PropTest = () => {
+  return <div> im revising react basics here.</div>;
+};
 
 export default PropTest;
